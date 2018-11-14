@@ -8,7 +8,8 @@
 
 import Foundation
 
-// The ReleaseApiModule provides a simple ReleaseApi, and is only included in the release target.
+// The ReleaseApiModule provides a simple Api hard coded for the production
+// endpoints, and is only included in the release target.
 extension DependencyGraph {
 
   func provideApi() -> Api {

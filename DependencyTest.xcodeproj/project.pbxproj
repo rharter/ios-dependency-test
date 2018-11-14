@@ -51,11 +51,8 @@
 		046E96BA219C7A9F004F5554 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E9698219C7218004F5554 /* Api.swift */; };
 		046E96BB219C7A9F004F5554 /* ReleaseApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E969B219C7259004F5554 /* ReleaseApi.swift */; };
 		046E96BC219C7A9F004F5554 /* DebugApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E96A0219C7348004F5554 /* DebugApi.swift */; };
-		046E96C4219C7AF3004F5554 /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E96C3219C7AF3004F5554 /* AppModule.swift */; };
-		046E96C5219C7AF3004F5554 /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E96C3219C7AF3004F5554 /* AppModule.swift */; };
 		046E96C9219C7E6A004F5554 /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E96C8219C7E6A004F5554 /* ViewControllerTests.swift */; };
 		046E96CA219C7F2F004F5554 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E9650219C6D2C004F5554 /* ViewController.swift */; };
-		046E96CB219C84E6004F5554 /* AppModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E96C3219C7AF3004F5554 /* AppModule.swift */; };
 		046E96CC219C8502004F5554 /* RepositoryModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E9691219C705D004F5554 /* RepositoryModule.swift */; };
 		046E96CD219C8507004F5554 /* DebugApiModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 046E969E219C7319004F5554 /* DebugApiModule.swift */; };
 /* End PBXBuildFile section */
@@ -111,7 +108,6 @@
 		046E96A2219C7392004F5554 /* ReleaseApiModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReleaseApiModule.swift; sourceTree = "<group>"; };
 		046E96A4219C7480004F5554 /* MyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModel.swift; sourceTree = "<group>"; };
 		046E96A7219C77B1004F5554 /* MyViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModelTests.swift; sourceTree = "<group>"; };
-		046E96C3219C7AF3004F5554 /* AppModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModule.swift; sourceTree = "<group>"; };
 		046E96C8219C7E6A004F5554 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
 		046E96CE219C859E004F5554 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -184,7 +180,6 @@
 				046E9657219C6D2D004F5554 /* LaunchScreen.storyboard */,
 				046E965A219C6D2D004F5554 /* Info.plist */,
 				046E9694219C706C004F5554 /* DependencyGraph.swift */,
-				046E96C3219C7AF3004F5554 /* AppModule.swift */,
 			);
 			path = DependencyTest;
 			sourceTree = "<group>";
@@ -391,7 +386,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046E96C5219C7AF3004F5554 /* AppModule.swift in Sources */,
 				046E9690219C6E98004F5554 /* PhotoRepositoryImpl.swift in Sources */,
 				046E9693219C705D004F5554 /* RepositoryModule.swift in Sources */,
 				046E9651219C6D2C004F5554 /* ViewController.swift in Sources */,
@@ -425,7 +419,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				046E96CB219C84E6004F5554 /* AppModule.swift in Sources */,
 				046E96CA219C7F2F004F5554 /* ViewController.swift in Sources */,
 				046E96AF219C79FB004F5554 /* PhotoRepositoryImpl.swift in Sources */,
 				046E96CC219C8502004F5554 /* RepositoryModule.swift in Sources */,
@@ -450,7 +443,6 @@
 				046E967E219C6D4C004F5554 /* ViewController.swift in Sources */,
 				046E9695219C706C004F5554 /* DependencyGraph.swift in Sources */,
 				046E968B219C6DEB004F5554 /* PhotoRepository.swift in Sources */,
-				046E96C4219C7AF3004F5554 /* AppModule.swift in Sources */,
 				046E969F219C7319004F5554 /* DebugApiModule.swift in Sources */,
 				046E96A1219C7348004F5554 /* DebugApi.swift in Sources */,
 				046E9699219C7218004F5554 /* Api.swift in Sources */,

@@ -10,7 +10,7 @@ import Foundation
 
 // The DebugApiModule is only included in the Debug target, and uses some
 // extra logic to read the endpoint value (set from the debug drawer) and
-// provide a DebugApi that acts accordingly.
+// provide an alternative Api implementation based on that.
 //
 extension DependencyGraph {
   
