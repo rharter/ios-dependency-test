@@ -113,6 +113,7 @@
 		046E96A7219C77B1004F5554 /* MyViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyViewModelTests.swift; sourceTree = "<group>"; };
 		046E96C3219C7AF3004F5554 /* AppModule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModule.swift; sourceTree = "<group>"; };
 		046E96C8219C7E6A004F5554 /* ViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTests.swift; sourceTree = "<group>"; };
+		046E96CE219C859E004F5554 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +151,7 @@
 		046E9642219C6D2B004F5554 = {
 			isa = PBXGroup;
 			children = (
+				046E96CE219C859E004F5554 /* README.md */,
 				046E964D219C6D2C004F5554 /* DependencyTest */,
 				046E9662219C6D2E004F5554 /* DependencyTestTests */,
 				046E966D219C6D2E004F5554 /* DependencyTestUITests */,
